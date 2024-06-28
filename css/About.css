@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+    body{
+        background: #2e3047;
+        overflow-x: hidden;
+        /* margin: 1rem; */
+        padding: 1rem;
+    }
+    .logo h1{
+        font-size: 2.2rem;
+        font-family: arial;
+        color: gold;
+        font-weight: 800;
+        border: 3px solid gold;
+        border-top: none;
+        border-right: none;
+        padding: 0.5rem;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap: 8rem;
+        padding: 1.4rem;
+        background:  #2e3047;
+        box-shadow: 0 0 1rem black;
+
+    }
+    ul{
+        margin: 2rem;
+        text-align: end;
+        /* border: 1px solid white; */
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-left: -3rem;
+        /* display: none; */
+        position: absolute;
+        background: transparent;
+        backdrop-filter: blur(6px);
+        margin-top: -80rem;
+        transition: 0.3s ease-in;
+        z-index: 3;
+        backdrop-filter: brightness(40%);
+    }
+    li{
+        margin: 1.3rem;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    a:hover{
+        color: gold;
+
+    }
+    a:focus{
+        color: gold;
+    }
+    .fa-bars{
+        font-size: 2.4rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .fa-bars:active{
+        scale: 0.8;
+    }
+    .MenuToggle{
+        margin-top: 2rem;
+    }
+    hr{
+        /* width: 590%; */
+        filter: brightness(50%);
+    }
+    
+footer{
+    text-align: center;
+    background: #43455c;
+    border-top-left-radius:1.5rem ;
+    border-top-right-radius:1.6rem ;
+    padding: 2rem;
+    box-shadow: 0 0 1rem black;
+    margin-top: 3rem;
+}
+
+.fa-facebook{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-facebook:hover{
+    color: white;
+}
+
+.fa-whatsapp{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-whatsapp:hover{
+    color: white;
+}
+
+.fa-google{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-google:hover{
+    color: white;
+}
+.head{
+    text-align: center;
+    margin: 4rem;    
+}
+.head h1{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: gold;
+}
+.parent{
+    text-align: center;
+    margin:1rem;
+}
+.parent p{
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer b{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+    @media(min-width:330px){
+
+        .menu{
+            margin-left: 5rem;
+        }
+    }
+    @media(min-width:390px){
+    
+        .menu{
+            margin-left: 9rem;
+        }
+    }
+    @media(min-width:450px){
+    
+        .menu{
+            margin-left: 15rem;
+        }
+        ul{
+            width: 20rem;
+            margin-left: -8rem;
+        }
+        a{
+            font-size: 1.6rem;
+        }
+        li{
+            margin: 2rem;
+        }
+        
+        
+    
+    }
+    @media(min-width:500px){
+        
+        .menu{
+            margin-left: 19rem;
+        }
+           }
+    @media(min-width:550px){
+        .menu{
+            margin-left: 24.5rem;
+        }
+    }
+    @media(min-width:600px){
+        .menu{
+            margin-left: 30rem;
+        }
+        .fa-bars{
+            font-size: 2.8rem;
+        }
+        .parent p{
+            font-size: 1.7rem;
+        }
+    }
+    @media(min-width:700px){
+    
+        
+        .menu{
+            margin-left: 40rem;
+        }
+    
+    }
+    @media(min-width:768px){
+    
+    
+    ul{
+        margin: 2rem;
+        /* text-align: end; */
+        /* border: 1px solid white; */
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-left: -48rem;
+        /* display: none; */
+        position: none;
+        background: none;
+        backdrop-filter:none;
+        margin-top: -5rem;
+        transition: none;
+        z-index: 3;
+        backdrop-filter:none;
+        display: flex;
+    }
+    li{
+        margin: 1.3rem;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    a:hover{
+        color: gold;
+    
+    }
+    a:focus{
+        color: gold;
+    }
+    .fa-bars{
+        font-size: 2.4rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+        visibility: collapse;
+    }
+    .fa-bars:active{
+        scale: 0.8;
+        display: none;
+    }
+    .MenuToggle{
+        margin-top: none;
+      
+    }
+    hr{
+        /* width: 590%; */
+        filter: brightness(50%);
+        display: none;
+    }
+    .para1{
+        text-align: justify;
+    }
+    
+    .para2{
+        text-align: justify;
+    }
+    .parent{
+        display: flex;
+        gap: 5rem;
+    }
+    .parent{
+        margin: 2rem;
+    }
+    }
+    @media(min-width:850px){
+    
+        .menu{
+            margin-left: 47rem;
+        }
+        footer b{
+            font-size: 2rem;
+        }
+    }
+    @media(min-width:970px){        
+        a{
+            font-size: 1.8rem;
+        }
+        .menu{
+            margin-left:50rem;
+        }
+     
+    
+    }
+    @media (min-width:1000px){
+        .menu{
+            margin-left: 55rem;
+        }
+        }
+        footer p{
+            font-size: 2rem;
+        }
+        .fa-facebook{
+            font-size: 3rem;
+        
+        }
+        .fa-whatsapp{
+            font-size: 3rem;
+        }
+        
+        .fa-google{
+            font-size: 3rem;
+        }
+        
+        .sec3{
+            /* margin-left: 20rem; */
+            text-align: center;
+        }
+    
+    
+    @media(min-width:1200px){
+        .menu{
+            margin-left: 70rem;
+        
+        }
+    }
+    @media(min-width:1300px){
+        .menu{
+            margin-left: 78rem;
+              }
+        .logo h1{
+            margin-left: 3rem;
+     }
+    
+    
+    }
+    @media(min-width:1400px){
+      
+    }
+    
+    @media(min-width:1500px){
+        .menu{
+            margin-left: 95rem;
+        }
+    
+        
+    
+    }
+    @media(min-width:1800px){
+    
+        a{
+            font-size: 2.1rem;
+        }
+        .menu{
+            margin-left: 108rem;
+        }
+    }

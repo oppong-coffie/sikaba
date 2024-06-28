@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+    body{
+        background: #2e3047;
+        overflow-x: hidden;
+        /* margin: 1rem; */
+        padding: 1rem;
+    }
+    .logo h1{
+        font-size: 2.2rem;
+        font-family: arial;
+        color: gold;
+        font-weight: 800;
+        border: 3px solid gold;
+        border-top: none;
+        border-right: none;
+        padding: 0.5rem;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap: 8rem;
+        padding: 1.4rem;
+        background:  #2e3047;
+        box-shadow: 0 0 1rem black;
+
+    }
+    ul{
+        margin: 2rem;
+        text-align: end;
+        /* border: 1px solid white; */
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-left: -3rem;
+        /* display: none; */
+        position: absolute;
+        background: transparent;
+        backdrop-filter: blur(6px);
+        margin-top: -80rem;
+        transition: 0.3s ease-in;
+        z-index: 3;
+        backdrop-filter: brightness(40%);
+    }
+    li{
+        margin: 1.3rem;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    a:hover{
+        color: gold;
+
+    }
+    a:focus{
+        color: gold;
+    }
+    .fa-bars{
+        font-size: 2.4rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .fa-bars:active{
+        scale: 0.8;
+    }
+    .MenuToggle{
+        margin-top: 2rem;
+    }
+    hr{
+        /* width: 590%; */
+        filter: brightness(50%);
+    }
+    
+footer{
+    text-align: center;
+    background: #43455c;
+    border-top-left-radius:1.5rem ;
+    border-top-right-radius:1.6rem ;
+    padding: 2rem;
+    box-shadow: 0 0 1rem black;
+    margin-top: 3rem;
+}
+.copyright{
+   font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot-email{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fa-facebook{
+    font-size: 2rem;
+    margin: 0.6rem;
+    color: gold;
+}
+.fa-facebook:hover{
+    color: white;
+}
+
+.fa-whatsapp{
+    font-size: 2rem;
+    margin: 0.56rem;
+    color: gold;
+}
+.fa-whatsapp:hover{
+    color: white;
+}
+
+.fa-google{
+    font-size: 2rem;
+    margin: 0.56rem;
+    color: gold;
+}
+.fa-google:hover{
+    color: white;
+}
+
+.fa-github{
+    font-size: 2rem;
+    margin: 0.56rem;
+    color: gold;
+}
+.fa-github:hover{
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.head h1{
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: gold;
+}
+img{
+    width: 20rem;
+    border-radius: 2rem;
+    height: 20rem;
+}
+.referees{
+    text-align: center;
+}
+.images{
+    margin-bottom: 2rem;
+}
+.images figcaption{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
+.images i{
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: gold;
+}
+.images span{
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img:hover{
+    filter: brightness(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:330px){
+
+    .menu{
+        margin-left: 5rem;
+    }
+    img{
+        width: 24rem;
+        height: 22rem;
+    }
+    
+    
+}
+@media(min-width:390px){
+
+    .menu{
+        margin-left: 9rem;
+    }
+    
+}
+@media(min-width:450px){
+
+    .menu{
+        margin-left: 15rem;
+    }
+    ul{
+        width: 20rem;
+        margin-left: -8rem;
+    }
+    a{
+        font-size: 1.6rem;
+    }
+    li{
+        margin: 2rem;
+    }
+    .referees{
+        display: grid;
+        grid: auto/auto auto;
+    }
+    
+    img{
+        width: 20rem;
+        height: 22rem;
+    }
+
+    
+    
+
+}
+@media(min-width:500px){
+    
+    .menu{
+        margin-left: 19rem;
+    }
+    
+    img{
+        width: 22rem;
+        height: 22rem;
+    }
+       }
+@media(min-width:550px){
+    .menu{
+        margin-left: 24.5rem;
+    }
+}
+@media(min-width:600px){
+    .menu{
+        margin-left: 30rem;
+    }
+    .fa-bars{
+        font-size: 2.8rem;
+    }
+    
+    img{
+        width: 25rem;
+        height: 22rem;
+    }
+
+    
+}
+@media(min-width:700px){
+
+    
+    .menu{
+        margin-left: 40rem;
+    }
+ }
+@media(min-width:768px){
+
+
+ul{
+    margin: 2rem;
+    /* text-align: end; */
+    /* border: 1px solid white; */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: -48rem;
+    /* display: none; */
+    position: none;
+    background: none;
+    backdrop-filter:none;
+    margin-top: -5rem;
+    transition: none;
+    z-index: 3;
+    backdrop-filter:none;
+    display: flex;
+}
+li{
+    margin: 1.3rem;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a:hover{
+    color: gold;
+
+}
+a:focus{
+    color: gold;
+}
+.fa-bars{
+    font-size: 2.4rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    visibility: collapse;
+}
+.fa-bars:active{
+    scale: 0.8;
+    display: none;
+}
+.MenuToggle{
+    margin-top: none;
+  
+}
+hr{
+    /* width: 590%; */
+    filter: brightness(50%);
+    display: none;
+}
+
+
+.foot-email{
+    font-size: 1.8rem;
+}
+
+img{
+    width: 28rem;
+    height: 22rem;
+}
+
+}
+@media(min-width:850px){
+
+    .menu{
+        margin-left: 47rem;
+    }
+    footer b{
+        font-size: 2rem;
+    }
+    
+
+}
+@media(min-width:970px){        
+    a{
+        font-size: 1.8rem;
+    }
+    .menu{
+        margin-left:50rem;
+    }
+
+    .referees{
+        grid: auto/auto auto auto auto;
+    }
+    
+img{
+    width: 23rem;
+    height: 22rem;
+}
+.head h1{
+    font-size: 3rem;
+    font-family: arial;
+    
+}
+}
+@media (min-width:1000px){
+    .menu{
+        margin-left: 53rem;
+    }
+    footer p{
+        font-size: 2rem;
+    }
+    .fa-facebook{
+        font-size: 2rem;
+    
+    }
+    .fa-whatsapp{
+        font-size: 2rem;
+    }
+    
+    .fa-google{
+        font-size: 2rem;
+    }    
+       
+img{
+    width: 24rem;
+    height: 22rem;
+}
+}
+
+
+@media(min-width:1200px){
+    .menu{
+        margin-left: 70rem;    
+}
+         
+
+}
+@media(min-width:1300px){
+    .menu{
+        margin-left: 78rem;
+          }
+    .logo h1{
+        margin-left: 3rem;
+ }
+       
+img{
+    width: 27rem;
+    height: 22rem;
+}
+.images figcaption{
+    font-size: 2rem;
+}
+.images i{
+    font-size: 2rem;
+}
+span{
+    font-size: 2rem;
+}
+.head{
+    margin-bottom: 8rem;
+}
+       
+}
+@media(min-width:1400px){
+  
+}
+
+@media(min-width:1500px){
+    .menu{
+        margin-left: 95rem;
+    }
+
+    
+
+}
+@media(min-width:1800px){
+
+    a{
+        font-size: 2.1rem;
+    }
+    .menu{
+        margin-left: 108rem;
+    }
+}

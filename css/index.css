@@ -1,0 +1,883 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+
+    body{
+        background: #2e3047;
+        overflow-x: hidden;
+        /* margin: 1rem; */
+        padding: 1rem;
+    }
+    .logo h1{
+        font-size: 2.2rem;
+        font-family: arial;
+        color: gold;
+        font-weight: 800;
+        border: 3px solid gold;
+        border-top: none;
+        border-right: none;
+        padding: 0.5rem;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap: 8rem;
+        padding: 1.4rem;
+        background:  #2e3047;
+        box-shadow: 0 0 1rem black;
+
+    }
+    ul{
+        margin: 2rem;
+        text-align: end;
+        /* border: 1px solid white; */
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-left: -3rem;
+        /* display: none; */
+        position: absolute;
+        background: transparent;
+        backdrop-filter: blur(6px);
+        margin-top: -80rem;
+        transition: 0.3s ease-in;
+        z-index: 3;
+        backdrop-filter: brightness(40%);
+    }
+    li{
+        margin: 1.3rem;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    a:hover{
+        color: gold;
+
+    }
+    a:focus{
+        color: gold;
+    }
+    .fa-bars{
+        font-size: 2.4rem;
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    .fa-bars:active{
+        scale: 0.8;
+    }
+    .MenuToggle{
+        margin-top: 2rem;
+    }
+    hr{
+        /* width: 590%; */
+        filter: brightness(50%);
+    }
+    #sec1{
+        text-align: center;
+        margin: 2rem;
+        /* background: #43455c; */
+        padding: 1rem;
+        /* box-shadow: 0 0 1rem black; */
+        /* border-radius: 0.7rem; */
+        
+    }
+    #sec1 h1{
+        font-size: 2.5rem;
+        font-family: arial;
+        font-weight: 700;
+    }
+    #sec1 h3{
+        font-size: 1.8rem;
+        margin: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    #sec1 h1:hover{
+        color: gold;
+    }
+    #sec1 h3:hover{
+        color: gold;
+    }
+    .sec2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #43455c;
+        padding: 2rem;
+        box-shadow: 0 0 1rem black;
+        border-radius: 1rem;
+    }
+  .slider{
+    position: relative;
+    width: 20rem;
+    overflow: hidden;
+  
+  }
+  .images{
+    display: flex;
+    width: 100%;
+    text-align: center;
+   
+  }
+  .images img{
+    height: auto;
+    max-width: 100%;
+    transition: all 0.15s ease;
+    border-radius: 1rem;
+  }
+  .images input{
+    display: none;
+  }
+
+  .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  .dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border: solid #fff;
+    margin: 5px;
+  }
+  .dots label:hover{
+    background: gold;
+  }
+  #img1:checked ~ .m1{
+    margin-left: 0;
+  }
+  
+  #img2:checked ~ .m2{
+    margin-left: -100%;
+  }
+  
+  #img3:checked ~ .m3{
+    margin-left: -200%;
+  }
+  
+  #img4:checked ~ .m4{
+    margin-left: -300%;
+  }
+.sec3{
+    text-align: center;
+    margin: 4rem;
+}
+.sec3 h1{
+    font-size: 2rem;
+    font-family: arial;
+    font-weight: 800;
+    margin: 1rem;
+}
+.sec3 p{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+
+}
+.sec3 a{
+    color: gold;
+    font-size: 1.6rem;
+}
+.course img{
+    width: 70%;
+}
+
+.calender img{
+    width: 50%;
+}
+.course{
+    text-align: center;
+    padding-right: 1rem;
+    
+}
+.sec4{
+    background: #43455c;
+    padding: 2rem;
+    box-shadow: 0 0 1rem black;
+    border-radius: 1rem;
+
+}
+.sec4 h1{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* color: gold; */
+    margin: 1rem;
+}
+.course{
+    display: grid;
+}
+.course figcaption{
+ font-size: 1.7rem;
+ margin: 0.4rem;
+}
+.course p{
+    font-size: 1.4rem;
+    font-family: consolas, 'Courier new', monospace;
+}
+.accounting{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.webtech{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.cpp{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+
+.comm-skills{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.hardware{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.database{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.electronics{
+    border: 2px solid gold;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem black;
+    margin-bottom: 2rem;
+}
+
+.sec5{
+    background: #43455c;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 1rem black;
+}
+.sec5 h1{
+    font-size: 2rem;
+    margin: 2rem;
+}
+.calender{
+    display: grid;
+}
+.sem1{
+    margin-bottom: 2rem;
+}
+.sem1 figcaption{
+    font-size: 1.7rem;
+}
+
+.sem2 figcaption{
+    font-size: 1.7rem;
+}
+.sec6{
+
+    text-align: center;
+    margin-top: 2rem;
+}
+.sec6 h1{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+.testimonials{
+    display: grid;
+}
+.test1{
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.test1 p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.test1 b{
+    font-family: arial;
+    
+    color: gold;
+    font-size: 1.7rem;
+}
+
+.test2{
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.test2 p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.test2 b{
+    font-family: arial;
+    
+    color: gold;
+    font-size: 1.7rem;
+}
+
+.test3{
+    padding: 0.6rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.test3 p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.test3 b{
+    font-family: arial;
+    
+    color: gold;
+    font-size: 1.7rem;
+}
+footer{
+    text-align: center;
+    background: #43455c;
+    border-top-left-radius:1.5rem ;
+    border-top-right-radius:1.6rem ;
+    padding: 2rem;
+    box-shadow: 0 0 1rem black;
+    margin-top: 3rem;
+}
+footer p{
+    font-size: 1.5rem;
+}
+.fa-facebook{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-facebook:hover{
+    color: white;
+}
+
+.fa-whatsapp{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-whatsapp:hover{
+    color: white;
+}
+
+.fa-google{
+    font-size: 2.4rem;
+    color: gold;
+    margin: 0.5rem;
+
+}
+.fa-google:hover{
+    color: white;
+}
+  img:hover{
+    filter: brightness(50%);
+}
+.slider img{
+    filter: none;
+}
+
+
+@media(max-width:251px){
+    footer p{
+        font-size: 1rem;
+    }
+    
+    .menu{
+        margin-left: -5rem;
+    }
+}
+
+
+
+
+@media(min-width:330px){
+
+    .menu{
+        margin-left: 5rem;
+    }
+}
+@media(min-width:390px){
+
+    .menu{
+        margin-left: 9rem;
+    }
+}
+@media(min-width:450px){
+
+    .menu{
+        margin-left: 15rem;
+    }
+    ul{
+        width: 20rem;
+        margin-left: -8rem;
+    }
+    a{
+        font-size: 1.6rem;
+    }
+    li{
+        margin: 2rem;
+    }
+    .sec4 h1{
+        text-align: center;
+    }
+    .sec4 h1::first-letter{
+        font-size: 3.5rem;
+        color: gold;
+    }
+    #sec1 h1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    #sec1 h3{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+}
+@media(min-width:500px){
+    .course{
+        grid: auto/auto auto;
+        grid-gap: 1.3rem;
+    }
+    .calender{
+        grid: auto/auto auto;
+    }
+    #sec1 h1{
+        color: gold;
+    }
+    .menu{
+        margin-left: 19rem;
+    }
+    .sec3 p{
+        font-size: 1.8rem;
+    }
+    
+    .sec3 a{
+        font-size: 1.8rem;
+    }
+    .course img{
+        width: 17rem;
+    }
+}
+@media(min-width:550px){
+    .menu{
+        margin-left: 24.5rem;
+    }
+    #sec1 h1{
+        font-size: 4rem;
+    }
+    .slider{
+        width: 25rem;
+    }
+    .sec6 h1{
+        font-size: 3rem;
+        color: gold;
+        text-decoration: underline;
+    }
+    .sec3 h1{
+        font-size: 3rem;
+        color: gold;
+        text-decoration: underline;
+    }
+}
+@media(min-width:600px){
+    .menu{
+        margin-left: 30rem;
+    }
+    .fa-bars{
+        font-size: 2.8rem;
+    }
+    #sec1{
+        margin-top: 6rem;
+    }
+}
+@media(min-width:700px){
+
+    .course{
+        grid: auto/auto auto;
+        grid-gap:0.5rem;
+    }
+    .sec4 h1{
+        font-size: 3rem;
+    }
+    .sec5 figcaption{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .sec5 h1{
+        font-size: 3rem;
+    }
+    .menu{
+        margin-left: 40rem;
+    }
+
+}
+@media(min-width:768px){
+
+
+ul{
+    margin: 2rem;
+    /* text-align: end; */
+    /* border: 1px solid white; */
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: -48rem;
+    /* display: none; */
+    position: none;
+    background: none;
+    backdrop-filter:none;
+    margin-top: -5rem;
+    transition: none;
+    z-index: 3;
+    backdrop-filter:none;
+    display: flex;
+}
+li{
+    margin: 1.3rem;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a:hover{
+    color: gold;
+
+}
+a:focus{
+    color: gold;
+}
+.fa-bars{
+    font-size: 2.4rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    visibility: collapse;
+}
+.fa-bars:active{
+    scale: 0.8;
+    display: none;
+}
+.MenuToggle{
+    margin-top: none;
+  
+}
+hr{
+    /* width: 590%; */
+    filter: brightness(50%);
+    display: none;
+}
+
+}
+@media(min-width:850px){
+
+    .menu{
+        margin-left: 47rem;
+    }
+  .slider{
+    width: 30rem;
+  }  
+  .images img{
+    width: 30rem;
+  }
+  .course img{
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  .calender div img{
+    width: 20rem;
+  }
+}
+@media(min-width:970px){
+    .menu{
+        margin-left: 55rem;
+    }
+    .parent{
+        display: grid;
+        grid: auto/auto auto;
+    }
+    .sec2{
+        margin-top: 4rem;
+        margin-right: 2rem;
+    }
+    .sec3{
+        text-align: center;
+        width: 50%;
+        margin-top: -17rem;
+        margin-left: 12rem;
+    }
+    #sec1 h1{
+font-size: 5rem;
+font-family: 'Times New Roman', Times, serif;
+    }
+    #sec1 h3{
+        font-size: 3rem;
+    }
+    #sec1{
+        margin-top: 7rem;
+    }
+    .sec2{
+        width: 50rem;
+    }
+    .slider{
+        width: 38rem !important;;
+        height: auto !important;
+    }
+    .images{
+        width:100%;
+        height: 40rem;
+    }
+    .images img{
+        width: 50rem !important;
+        height: 52rem;
+        border-radius:1rem ;
+        
+    }
+
+    #sec1 h1{
+        text-shadow: 0 0 1rem black ;
+        font-weight: 800;
+
+    }
+    .logo h1{
+        font-size: 2.5rem;
+        border: 4px solid;
+        border-top: none;
+        border-right: none;
+        /* border-left:4px solid white ; */
+    /* }
+    .accounting{
+        grid-area: accounting;
+    }
+    .webtech{
+        grid-area: webtech;
+    }
+    
+    .comm-skills{
+        grid-area: comm-skills;
+    }
+    
+    .database{
+        grid-area: database;
+    }
+    
+    .cpp{
+        grid-area: cpp;
+    }
+    
+    .hardware{
+        grid-area:hardware;
+    }
+    
+    .electronics{
+        grid-area:electronics;
+        /* display: none; */
+    } */
+    .course{
+        display: grid;
+        text-align: center;
+        grid-gap: 1rem;
+        padding-right: 20rem;
+        padding-left: 20rem;
+        /* grid: 'accounting webtech comm-skills'
+        'hardware electronics database'
+        'cpp cpp cpp'; */
+       
+    }
+    
+    .course figcaption{
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .course p{
+        font-size: 1.5rem;
+    }
+    .course div{
+        height: auto;
+    }
+    a{
+        font-size: 1.8rem;
+    }
+    .menu{
+        margin-left:50rem;
+    }
+    .dots label{
+        border: px solid;
+    }
+
+}
+@media (min-width:1000px){
+    .menu{
+        margin-left: 53rem;
+    }
+    .sec3 p{
+        font-size: 2.1rem;
+    }
+    .sec3 a{
+        font-size: 2.1rem;
+    }
+    .sec4 h1{
+        font-size: 3.4rem;
+        margin: 2rem;
+    }
+    .sec4 h1::first-letter{
+        font-size: 6rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .testimonials p{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .sec6 h1{
+        font-size: 4rem;
+    }
+    footer p{
+        font-size: 2rem;
+    }
+    .fa-facebook{
+        font-size: 3rem;
+    
+    }
+    .fa-whatsapp{
+        font-size: 3rem;
+    }
+    
+    .fa-google{
+        font-size: 3rem;
+    }
+    
+    .sec3{
+        /* margin-left: 20rem; */
+        text-align: center;
+    }
+
+}
+@media(min-width:1200px){
+    .menu{
+        margin-left: 66rem;
+    }
+    .sec3{
+        margin-left: 20rem;
+    }
+}
+@media(min-width:1300px){
+    .menu{
+        margin-left: 74rem;
+    }
+    #sec1{
+        margin-top: 12rem;
+    }
+    .logo h1{
+        margin-left: 3rem;
+    }
+    .sec4 h1{
+        text-decoration: under;
+    }
+    .sec5 img{
+        width: 30rem;
+    }
+    .sec5 figcaption{
+        font-size: 2.2rem;
+    }
+
+
+}
+@media(min-width:1400px){
+    .sec4{
+        margin-top: 8rem;
+    }
+}
+
+@media(min-width:1500px){
+    .menu{
+        margin-left: 90rem;
+    }
+    .sec2{
+        background: #2e3047;
+    }
+    .course figcaption{
+        font-size: 2.5rem;
+        margin: 1rem;
+    }
+    
+    .course p{
+        font-size: 2.5rem;
+    }
+    .sec3 p{
+        font-size: 2.5rem;
+        margin-left: 7rem;
+    }
+    
+    .sec3 a{
+        font-size: 2.5rem;
+       
+    }
+
+}
+@media(min-width:1700px){
+    .sec2{
+        margin-left: -3rem;
+    }
+}
+@media(min-width:1800px){
+
+    a{
+        font-size: 2.1rem;
+    }
+    .menu{
+        margin-left: 100rem;
+    }
+}
